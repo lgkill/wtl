@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>产品详情</title>
+	<link href="../css/common_css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/aboutUs.css">   
+    <link href="../css/product_detail.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<!--顶部信息-->
+	<div class="container-fluid top_tip">
+	    <div class="row">
+			<div class="col-xs-0 col-md-2">
+			</div>
+			<div class="col-xs-12 col-md-8 container_top_tip">	
+				<img class="img-responsive" src="../images/index_03.jpg" />联系电话：+86-755-21384132
+				<span>中文|English<span>
+			</div>
+			<div class="col-xs-0 col-md-2">
+			</div>
+		</div>
+	</div>
+	<!-- nav部分 -->
+	<div class="container-fluid ">
+		<div class="row t_logo">
+			<div class="col-xs-0 col-sm-0 col-lg-2">
+			</div>
+			<div class="col-xs-0 col-sm-6 col-lg-4 container_top_tip hidden-xs">
+				<a href="index.html">
+                    <img class="img-responsive container_top_logo" src="../images/logo.png" />
+                </a>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-4 ">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control form_long" placeholder="请输入搜索内容">
+                         <button type="submit" class="btn btn-default">提交</button>
+                    </div>
+                   
+                </form>
+			</div>	 
+			<div class="col-xs-0 col-sm-0 col-lg-2">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-0 col-sm-0 col-sm-0 col-lg-2">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-8 ">  
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                     　<!-- .navbar-toggle样式用于toggle收缩的内容，即nav-collapse collapse样式所在元素 -->
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                       <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+                        
+                    </div>
+                  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav">
+                            <li ><a href="index.html">网站首页</a></li>
+                            <li class="dropdown">
+                                <a href="aboutUs.html" data-toggle="dropdown" class="dropdown-toggle">
+                                    关于我们
+                                    <span class="caret">
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="aboutUs.html">公司介绍</a></li>
+                                    <li><a href="companyForm.html">公司组成</a></li>
+                                    <li><a href="companyCulture.html">公司文化</a></li>
+                                    <li><a href="companyHonor.html">公司荣誉</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="product.html" data-toggle="dropdown" class="dropdown-toggle">
+                                    产品中心
+                                    <span class="caret">
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li ><a href="product.html">监护产品</a></li>
+                                    <li><a href="product.html">心电产品</a></li>
+                                    <li><a href="product.html">家用医疗</a></li>
+                                    <li><a href="product.html">监护模块</a></li>
+                                    <li><a href="product.html">仪器仪表</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="news.html" data-toggle="dropdown" class="dropdown-toggle">
+                                    新闻资讯
+                                    <span class="caret">
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="news.html">公司新闻</a></li>
+                                    <li><a href="news.html">行业资讯</a></li>
+                                    <li><a href="news.html">科普知识</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="service.html" data-toggle="dropdown" class="dropdown-toggle">
+                                    服务中心
+                                    <span class="caret">
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="service.html">在线下载</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="recruit.html">人才招聘</a></li>
+                            <li><a href="Consultation.html">在线资讯</a></li>
+                            <li><a href="contactUs.html">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-0 col-sm-0 col-lg-2">
+            </div>
+		</div>
+	</div>
+	<!-- banner -->
+	<img class="img-responsive center-block showdown hidden-xs" id="slidershow1" src="../images/aboutus.jpg" />
+
+    <!-- 主要内容 -->
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 ">  
+                <ul class="list-group public_shadow listhide sidebarform1">
+                    <li class="list-group-item liaboutus">产品系列</li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        监护产品
+                    </li>
+                    <!-- //隐藏部分 -->
+                    <li class="list-group-item jh_list custody">
+                        <a href="#">血氧仪</a>
+                    </li>
+                    <li class="list-group-item jh_list custody">
+                        <a href="#">生命体征检测仪</a>
+                    </li>
+                    <li class="list-group-item jh_list custody">
+                        <a href="#">多参数监护仪</a>
+                    </li>
+                    <!-- //隐藏部分 -->
+
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        心电产品
+                    </li>
+                    <!-- //隐藏部分 -->
+                     <li class="list-group-item jh_list sport">
+                        <a href="#">运动心电</a>
+                    </li>
+                    <!-- //隐藏部分 -->
+
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        家用医疗
+                    </li>
+                    <!-- //隐藏部分 -->
+                    <li class="list-group-item jh_list Sphygmomanometer">
+                        <a href="#">血压计</a>
+                    </li>
+                    <!-- //隐藏部分 -->
+
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        监护模块
+                    </li>
+                    <!-- //隐藏部分 -->
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">多参数监护模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">血氧模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">血压模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">心电模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">呼吸气体模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">血液动力学检测模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">脑电模块</a>
+                    </li>
+                    <li class="list-group-item jh_list jhmk">
+                        <a href="#">氧气检测模块</a>
+                    </li>
+                    <!-- //隐藏部分 -->
+
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        仪表仪器
+                    </li>
+                    <!-- //隐藏部分 -->
+                    <li class="list-group-item jh_list electric">
+                        <a href="#">电子压力计</a>
+                    </li>
+                    <!-- //隐藏部分 -->
+                </ul>
+                <ul class="list-group public_shadow list-none">
+                    <li class="list-group-item liaboutus">惟拓力在你身边</li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        联系我们
+                    </li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-earphone"></span>
+                        +86-755-21384132
+                    </li>
+                    <li class="list-group-item">
+                        <span class="glyphicon glyphicon-hand-right"></span>
+                        加入对话
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 detail sidebarRight aboutus public_shadow ">
+                <div class="right-extra hidden-xs" >
+                  <!--产品参数开始-->
+                    <div>
+                        <div id="preview" class="spec-preview">
+                            <span class="jqzoom"><img jqimg="../images/list11b.jpg" src="../images/list11.jpg" /></span> 
+                        </div>
+                    <!--缩图开始-->
+                        <div class="spec-scroll"> <a class="prev">&lt;</a> <a class="next">&gt;</a>
+                            <div class="items">
+                                <ul>
+                                  <li><img alt="佳能" bimg="../images/list11b.jpg" src="../images/list11.jpg" onmousemove="preview(this);"></li>
+                                  <li><img alt="佳能" bimg="../images/list22b.jpg" src="../images/list22.jpg" onmousemove="preview(this);"></li>
+                                  <li><img alt="佳能" bimg="../images/list33b.jpg" src="../images/list33.jpg" onmousemove="preview(this);"></li>
+                                  <li><img alt="佳能" bimg="../images/list44b.jpg" src="../images/list44.jpg" onmousemove="preview(this);"></li>        
+                                </ul>
+                            </div>
+                        </div>
+                    <!--缩图结束-->
+                    </div>
+                  <!--产品参数结束-->
+                </div>
+                <div class="product_name sidebarform">
+                    <h5>产品名称：多参数监护仪</h5>
+                    <h5>产品型号：XH-80B</h5>
+                    <h5>适用范围：病人监护</h5>
+                </div>
+                <div class="performance">
+                    <h4>产品性能</h4>
+                    <span>血氧部分：</span>
+                    <p>测量范围 血氧饱和度：0～100% 脉率：25～250BPM 测量精度 
+血氧饱和度： ±2%（70%～100%) 无定义（&lt;70%） 脉率：±2% </p>
+                    <span>血压部分：</span>
+                    <p>测量范围 成人模式 收缩压 平均压 40～270mmHg 20～230mmHg 
+舒张压 脉率  10～210mmHg 30～240bpm 儿童模式    收缩压 平均压 
+40～200mmHg 20～175mmHg 舒张压 脉率 10～162mmHg 30～240bpm 新生儿模式 收缩压 平均压 40～130mmHg 20～100mmHg 舒张压 脉率 10～90mmHg 40～240bpm 测量精度    收缩压、舒张压： 标准偏差小于8mmHg，平均偏差小于±5mmHg脉率：±2BPM，或读数的±2%（取两者之间的较大值） 
+                    </p>
+                    <span>主流CO2部分：</span>
+                    <p>二氧化碳 范围：0～20 vol % 精度： 0～10 vol %，±（0.2vol%+读数的2%） 11～20 vol % ，±（0.2vol%+读数的5%） 呼吸率 范围：0～150rpm 精度：±1rpm 上升时间：≤90ms 系统总响应时间：≤1s 
+                    </p>
+                    <span>旁流CO2部分：</span>
+                    <p>二氧化碳 范围：0～20 vol % 
+精度： 0～10 vol %，±（0.2vol%+读数的2%） 11～20 vol % ，±（0.2vol%+读数的5%） 
+呼吸率 范围：0～120rpm 精度：±1rpm 上升时间：≤180ms 抽气率 范围：40～150 mL/Min 精度：±10mL/Min，或读数10% 
+                    </p>
+                    <h4>产品特点</h4>
+                    <p>
+                        <h5>标配SpO2、NiBP参数</h5>
+                        <h5>CO2主流、旁流模块任意选配</h5>
+                        <h5>选配外挂式单导心电监护模块</h5>
+                        <h5>O2监测模块选配（采用CO2旁流模块时适用）</h5>
+                        <h5>7寸高分辨率液晶显示屏，触屏和按键混合操作</h5>
+                        <h5>机身轻巧，急诊、院内院外转运环境下的最佳选择</h5>
+                        <h5>可横向竖向锁紧支架，床栏杆、输液架安装方式灵活多变</h5>
+                        <h5>选配热敏打印机，可随时打印实时监护数据</h5>
+                        <h5>支持网络传输，可接入中央监护工作站</h5>
+                        <h5>具有USB数据接口，支持数据存储功能</h5>
+                        <h5>支持病人类型和报警参数设置，可快速切换病人类型和报警阈值</h5>
+                        <h5>可拆卸，可充电4800mAH锂电池，超强续航能力，满足出诊和急救车应用</h5>
+                        <h5>具有声光报警功能，360度全视角报警灯，智能报警提示</h5>
+                    </p>
+                </div>
+            </div> 
+            
+            <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2">
+            </div>
+        </div>
+    </div>
+	<!-- 尾部 -->
+    <div class="container-fluid top_tip footer">
+        <div class="row">
+            <div class="col-xs-0 col-lg-2">
+            </div>
+            <div class="col-xs-12 col-lg-8 sm">  
+                <p>关注我们：</p>
+                <p>版权所有Copyright @2013-2016 深圳惟拓力医疗电子有限公司 联系电话:+86-755-21384132 互联网药品信息服务资格证书[（粤）-非经营性-2015-0138] 粤ICP备15066632号</p>
+            </div>
+            <div class="col-xs-0 col-lg-2">
+            </div>
+        </div>
+    </div>
+ 
+	<script src="../js/common_js/jquery-1.11.1.min.js"></script>
+	<script src="../js/common_js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/jquery.jqzoom.js"></script>
+    <script type="text/javascript" src="../js/product_detail.js"></script>
+</body>
+</html>
