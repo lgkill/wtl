@@ -1,0 +1,26 @@
+ 
+ul li{list-style: none;}
+ul{padding:0;margin-top:25px;}
+
+.container_top_tip span{float:right;}
+.container_top_tip img{float:left;}
+.container_top_logo{padding-top:8px;}
+.top_tip{background: #000;color: #fff;}
+
+.a_tittle{background-color:#e5e6e5 ; color: green;padding:5px 5px;}
+.a_tittle a{float: right;color: #ccc;}
+.a_shen img{width:443px;height: 139px;margin-top:20px; }
+.a_p{text-indent:2em; line-height: 25px; margin-top: 16px;font-size: 12px;font-family: "宋体";color: #6b6e6d;}
+.fr{float:right;}
+.x_ul span{float:right;}
+.x_ul li{height:50px;}
+.footer .sm{padding-top:10px;padding-bottom:10px;font-family: "宋体";
+font-size: 12px;}
+.t_logo{margin:20px auto 20px auto;}
+
+.form_long {display: inline-block; width: auto; }
+
+.showdown{-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;-webkit-box-shadow: #666 0px 0px 10px;-moz-box-shadow: #666 0px 0px 10px;box-shadow: #666 0px 0px 10px;background: #EEFF99;}
+#slidershow1{margin-bottom:20px; }
+.right-block{float:right;}
+.aboutus{margin-bottom:50px;}
